@@ -2,7 +2,7 @@
 Hello! For this task, you will have to allocate around 15-30 minutes of your time.
 For the GitHub repository, you will have to download all contents to be able to view your site as you are updating the html file. 
 
-I have commented certain sections in the html file for you to edit.
+I have commented certain sections in the html file for you to edit. 
 
 If you are creating a group page, please open the grouppages folder. You will find the html file to edit there. Name it accordingly.
 If you are creating a personal page, please open the personalpages folder. You will find the html file to edit there. Name it accordingly.
@@ -11,10 +11,14 @@ After you are done with your edits, please delete all other items except for the
 
 # A little bit about HTML
 
-<a>, <p>, <h1> are all tags. They will have text in between them, and end with </h1>, </p>, </a>, etc.
+```html
+<a href= "PUT A LINK HERE">This is the text that will show</a>
+<p> This is a paragraph! </p>
+<h3> This is a title! </h3>
+```
+The following are all tags. They will have text in between them, and end with the same tag except with a slash.
 
 When editing words, please edit between the tags.
-
 
 In order to add images:
 
