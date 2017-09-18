@@ -1,0 +1,564 @@
+/*
+
+Template 2082 Pure Mix
+
+http://www.tooplate.com/view/2082-pure-mix
+
+*/
+
+/* Body 
+------------------------------------- */
+body {
+    background: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+}
+
+
+/* Typography
+------------------------------------- */
+
+h1,h2,h3,h4,h6 {
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #212121;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+h3 {
+  color: #444;
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+h6 {
+  padding-top: 10px;
+  color: #000;
+  font-size: 1rem;
+}
+
+p, 
+.contact, 
+dd{
+  color: #696969;
+  font-size: 16px;
+  line-height: 28px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #696969;
+}
+
+a:hover, a h1:hover,
+a:focus {
+  color: #FF6A13;
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+hr {
+  color: #000;
+  display: block;
+  border-width: 1px;
+  size: 2px;
+}
+
+
+/* preloader styles
+/* ========================================== */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #fff;
+}
+
+.sk-spinner-pulse {
+  width: 60px;
+  height: 60px;
+  background-color: #111112;
+  border-radius: 100%;
+  -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+          animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+
+@-webkit-keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+@keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+/* this is the orange color line */
+#colorbar {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  height: 7px;
+  background-color: #FF6A13;
+}
+
+/* navigation styles
+/* ========================================== */
+.navbar-custom {
+  margin-bottom:0;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 4px;
+  font-weight: 250;
+  text-transform:lowercase;
+  padding:20px 0;
+  border-bottom:0;
+  background:0 0;
+  -webkit-transition:background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition:background .5s ease-in-out,padding .5s ease-in-out;
+  transition:background .5s ease-in-out,padding .5s ease-in-out;
+}
+.navbar-custom .container {
+  width: 100%;
+}
+.navbar-header a {
+  font-size:25px;
+  color: #fff;
+}
+.navbar-custom li a {
+  color: #fff;
+  font-size:20px;
+}
+
+.navbar-custom .nav li a:hover {
+  outline:0;
+  color:#FF6A13;
+  background-color:transparent;
+  -moz-transition: color 0.3s ease, border-bottom-color 0.3s ease;
+  -webkit-transition: color 0.3s ease, border-bottom-color 0.3s ease;
+  -ms-transition: color 0.3s ease, border-bottom-color 0.3s ease;
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.navbar-custom.top-nav-collapse {
+     padding:0;
+     border-bottom:1px solid rgba(255,255,255,.3);
+     background:#fff;
+  }
+.navbar-custom.top-nav-collapse a {
+    color:#333;
+    display:inline-block;
+  }
+
+/* header section styles
+/* ========================================== */
+#header {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-bottom: 100px;
+  height: 42vh;
+  min-height: 420px;
+  padding-top: 120px;
+}
+#header .header-thumb *{
+  color: #fff;
+  text-transform: unset;
+  font-weight:200;
+}
+#header .header-thumb h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  }
+#header .header-thumb h3 {
+  font-size: 1.5rem;
+  text-transform: lowercase;
+}
+#header .header-thumb h1 *{
+  background-color: #FF6A13;
+}
+.header-thumb {
+  padding: 32px 0 32px 0 !important;
+}
+.header-one {
+  background: url('../images/caltech/beckman.jpg') no-repeat;
+  height: 60vh !important;
+  min-height: 785px !important;
+  padding-top: 150px !important;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  -o-background-size:cover;
+}
+.header-one .header-thumb {
+  height: 300px;
+}
+.header-two {
+  background: url('../images/caltech/aerial.jpg') no-repeat;
+}
+.header-three {
+  background: url('../images/caltech/schlinger.jpg') no-repeat;
+}
+.header-four {
+  background: url('../images/caltech/annenberg.jpg') no-repeat;
+}
+.header-five {
+  background: url('../images/caltech/moore_walk.jpg') no-repeat;
+}
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+/* Portfolio section styles
+/* ========================================== */
+#portfolio {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+#portfolio img {
+  width: 100%;
+}
+.ion-ios-person {
+  font-size: 60px;
+  padding: 0 0 0 0;
+}
+
+
+#portfolio .portfolio-thumb {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+} 
+
+#portfolio .portfolio-thumb .portfolio-overlay {
+  background: #141414;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+#portfolio .portfolio-thumb:hover .portfolio-overlay {
+  opacity: 0.7;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
+    text-align: center;
+    padding: 30% 20px 20px;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay .fa {
+    background: #f9f9f9;
+    border-radius: 100px;
+    color: #141414;
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+
+.portfolio-thumb {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+
+.pfp {
+    position: absolute;
+    left: -1000%;
+    right: -1000%;
+    top: -1000%;
+    bottom: -1000%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+}
+
+.iso-box h5 {
+  padding: 0 0 0 0;
+  font-size: 20px;
+}
+/*filter css*/
+.filter-wrapper {
+    width: 100%;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.filter-wrapper li {
+    display: inline-block;
+    margin: 4px;
+}
+
+.filter-wrapper li a {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 8px 17px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.filter-wrapper li a:active {
+  background: #111112 !important;
+}
+.filter-wrapper li a:hover,
+.filter-wrapper li a:focus {
+  background: #FF6A13;
+  color: #ffffff;
+}
+
+/*isotope box css*/
+.iso-box-section {
+    width: 100%;
+}
+
+.iso-box-wrapper {
+    width: 100%;
+    padding: 0;
+    clear: both;
+    position: relative;
+}
+
+.iso-box {
+    position: relative;
+    min-height: 50px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.iso-box > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+} 
+
+.fluid-img {
+    width: 100%;
+    display: block;
+}
+
+
+/* about section styles
+/* ========================================== */
+#about {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+#about .col-md-4 {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+#about img {
+  padding-bottom: 20px;
+}
+
+#about blockquote {
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+/* blog & single post section styles
+/* ========================================== */
+.grey {
+  background-color: #F5F5F5;
+}
+
+#blog, 
+#single-post {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+#blog .blog-thumb {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#blog .post-format,
+#single-post .post-format {
+  padding-bottom: 10px;
+}
+
+#blog .post-format span,
+#single-post .post-format span {
+  color: #888;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-right: 10px;
+}
+
+.btn {
+  border-radius: 0px;
+  padding: 10px 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 22px;
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+  background-color: #FF6A13;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+#header .btn {
+  border-color: transparent;
+  text-decoration-color: #fff;
+  background-color: #FF6A13;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 0px;
+  padding: 10px 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 22px;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  border-width: 2px;
+}
+#header .btn:hover {
+  
+  border-color: #fff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+/*SIDE BAR FORMATTING*/
+.sidebar-right .main{
+  float:left;
+}
+.idebar-right .sidebar{
+  float:right;
+}
+.sidebar h1 {
+  font-size: 25px;
+}
+.alignright{
+  align-content: right;
+  text-align: right;
+}
+.sidebar .blog-thumb p {
+  line-height: 10px;
+}
+
+/* contact section styles
+/* ========================================== */
+#contact {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#contact .fa {
+  font-size: 32px;
+  padding-right: 10px;
+}
+
+#contact .col-md-4 {
+  background: #fff;
+  padding: 62px 0px 32px 42px;
+  position: relative;
+  bottom: -50px;
+}
+
+
+/* footer section styles
+/* ========================================== */
+footer {
+  background: #141414;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.vert-line {
+   border-right: thin solid #FF6A13;
+ }
+ .resize {
+  width: 300px;
+  height: auto;
+ }
