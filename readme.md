@@ -32,9 +32,9 @@ If you are using an outside image source, just Copy the image's address and pase
 ```html
 <img src="PASTE LINK HERE" class="img-responsive" alt="Single Project">
 ```
-For making titles, use tags such as <h3> and <h4>. <h4> will be noticeable bolder and bigger. Close the tags after text.
+For making titles, use tags such as "<h3>" and "<h4>". "<h4>" will be noticeably bolder and bigger. Close the tags after text.
 
-For making paragraphs, use the tags <p> and </p>.
+For making paragraphs, use the tags "<p>" and "</p>".
 
 ```html
 <h4>This is a title</h4>
